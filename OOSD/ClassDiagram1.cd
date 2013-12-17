@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OOSD.addUserWindow" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>f0AQAAApBDAgABUgABCAAAoCAGAAQAAACCAAgBgYAjA=</HashCode>
+      <FileName>addUserWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.adminDatabaseHandler" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgABAAAAAAAAAQAAAABAIAAAAAA=</HashCode>
+      <FileName>adminDatabaseHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.administrationWindow" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAAAAIAAACAiAAAAAACIAAACAFAgEQBAACAAAAEAAAA=</HashCode>
+      <FileName>administrationWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.borrowHistoryWindow" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABCAAACBAAACEEgAAAAAECAAAAEAABA=</HashCode>
+      <FileName>borrowHistoryWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.catalogeWindow" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>catalogeWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.circulationsWindow" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kIACAAgAACAgCAUAAACBAAADAAAAEIAAAAAAAAAAAAA=</HashCode>
+      <FileName>circulationsWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.Connection" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAGCCAgAQAAAAAwAEgAADUAAEAAAAEAAAAQiIBMAAIQ=</HashCode>
+      <FileName>Connection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.emailChangeWindow" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAACAAoBCAABCBAAACAEAAAAAAACAgAAEAAAA=</HashCode>
+      <FileName>emailChangeWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.fineAccountWindow" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>fineAccountWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.MainWindow" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAAIANADSEAlAiAAETgCCACACCAgDBACAAAADEAggE=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.lendingAndReturningWindow" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBCAAIACAAABAAAACBAAACAAAQAAAKECABAAEEAAA=</HashCode>
+      <FileName>lendingAndReturningWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.loginWindow" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAQSAAIhCAIACAAAELAEQAAAAAAAAAAAEAABQ=</HashCode>
+      <FileName>loginWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.passwordChangeWindow" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAgBCQAACBAAACAEAAAAAAACAoAAEAAAI=</HashCode>
+      <FileName>passwordChangeWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.passwordResetWindow" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAACAgABAQAACAAAACAEAAAAEAACAIAAAAAgI=</HashCode>
+      <FileName>passwordResetWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.passwordsDataSet" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAgAJABAAAQAAAAAgCQBgQAAAQAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.passwordsDataSet1" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAgAJABAAAQAAAAAgCQBgQAAAQAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.Program" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.removeUserWindow" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQACAAACAAABAAAAKAAAACAEAAAQAAACAAAAEAAAA=</HashCode>
+      <FileName>removeUserWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.reportWindow" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>reportWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.searchingHandler" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>searchingHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.searchWindow" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAIAACAAAFCCAACAABACAEAAhACAAAAAgAEAhBI=</HashCode>
+      <FileName>searchWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.suspendUserWindow" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQBAgAACAgABAAAAKAAAACAEAAAQAAACAAAAEAAAA=</HashCode>
+      <FileName>suspendUserWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.testDataSet" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAgAJABAAAQAAAAAgCQBgQAAAQAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.user" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQESAgCBKInKCAygIBIpiCGAOCAAgFAABQpgq2AQCoA=</HashCode>
+      <FileName>user.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.userAccountHandler" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAACAAAAAAAiIEAABAAAAAAAAAAAAAAAgAAEAAAA=</HashCode>
+      <FileName>userAccountHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.userAccountWindow" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AJAAAACAACAKAAAAASCJAAACAEAAIAAAAAJEAAEAAAA=</HashCode>
+      <FileName>userAccountWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.userLoginHandler" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAgBAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>userLoginHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.viewReservationsWindow" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAgBCIACCBIAACAFAAAAAAACAAAAEAAAA=</HashCode>
+      <FileName>viewReservationsWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.passwordsDataSetTableAdapters.vaultTableAdapter" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.passwordsDataSetTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQCAAAABABAEBAAAAMAAgAAACgAAAAAQAAAAQBAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.passwordsDataSet1TableAdapters.vaultTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.passwordsDataSet1TableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQCAAAABABAEBAAAAMAAgAAACgAAAAAQAAAAQBAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.Properties.Resources" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoEAAAQAAAAg0AAAgQBUAAAEQAAAAAAQAAAAAAIAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.Properties.Settings" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAIAAAAAABAAACAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.testDataSetTableAdapters.vaultTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OOSD.testDataSetTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQCAAAABABAEBAAAAMAAgAAACgAAAAAQAAAAQBAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

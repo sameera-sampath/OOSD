@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{28438D40-113E-4821-8D65-EFE6E0F71891}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OOSD</RootNamespace>
+    <AssemblyName>OOSD</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.6.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data.Entity, Version=6.6.5.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addUserWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addUserWindow.Designer.cs">
+      <DependentUpon>addUserWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminDatabaseHandler.cs" />
+    <Compile Include="administrationWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="administrationWindow.Designer.cs">
+      <DependentUpon>administrationWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="borrowHistoryWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="borrowHistoryWindow.Designer.cs">
+      <DependentUpon>borrowHistoryWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="catalogeWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="catalogeWindow.Designer.cs">
+      <DependentUpon>catalogeWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="circulationsWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="circulationsWindow.Designer.cs">
+      <DependentUpon>circulationsWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connection.cs" />
+    <Compile Include="emailChangeWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="emailChangeWindow.Designer.cs">
+      <DependentUpon>emailChangeWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LibraryDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LibraryDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reservation.Designer.cs">
+      <DependentUpon>Reservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="passwordChangeWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="passwordChangeWindow.Designer.cs">
+      <DependentUpon>passwordChangeWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="passwordResetWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="passwordResetWindow.Designer.cs">
+      <DependentUpon>passwordResetWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="removeUserWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="removeUserWindow.Designer.cs">
+      <DependentUpon>removeUserWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="searchingHandler.cs" />
+    <Compile Include="suspendUserWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="suspendUserWindow.Designer.cs">
+      <DependentUpon>suspendUserWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>testDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="userAccountHandler.cs" />
+    <Compile Include="userLoginHandler.cs" />
+    <Compile Include="fineAccountWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fineAccountWindow.Designer.cs">
+      <DependentUpon>fineAccountWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="lendingAndReturningWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="lendingAndReturningWindow.Designer.cs">
+      <DependentUpon>lendingAndReturningWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loginWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginWindow.Designer.cs">
+      <DependentUpon>loginWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="passwordsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>passwordsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="passwordsDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>passwordsDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="reportWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reportWindow.Designer.cs">
+      <DependentUpon>reportWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="searchWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchWindow.Designer.cs">
+      <DependentUpon>searchWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="user.cs" />
+    <Compile Include="userAccountWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userAccountWindow.Designer.cs">
+      <DependentUpon>userAccountWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewReservationsWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewReservationsWindow.Designer.cs">
+      <DependentUpon>viewReservationsWindow.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="addUserWindow.resx">
+      <DependentUpon>addUserWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="administrationWindow.resx">
+      <DependentUpon>administrationWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="borrowHistoryWindow.resx">
+      <DependentUpon>borrowHistoryWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="catalogeWindow.resx">
+      <DependentUpon>catalogeWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="circulationsWindow.resx">
+      <DependentUpon>circulationsWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="emailChangeWindow.resx">
+      <DependentUpon>emailChangeWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fineAccountWindow.resx">
+      <DependentUpon>fineAccountWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lendingAndReturningWindow.resx">
+      <DependentUpon>lendingAndReturningWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginWindow.resx">
+      <DependentUpon>loginWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="passwordChangeWindow.resx">
+      <DependentUpon>passwordChangeWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="passwordResetWindow.resx">
+      <DependentUpon>passwordResetWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="removeUserWindow.resx">
+      <DependentUpon>removeUserWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="reportWindow.resx">
+      <DependentUpon>reportWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reservation.resx">
+      <DependentUpon>Reservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchWindow.resx">
+      <DependentUpon>searchWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="suspendUserWindow.resx">
+      <DependentUpon>suspendUserWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userAccountWindow.resx">
+      <DependentUpon>userAccountWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewReservationsWindow.resx">
+      <DependentUpon>viewReservationsWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="LibraryDataSet.xsc">
+      <DependentUpon>LibraryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LibraryDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LibraryDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LibraryDataSet.xss">
+      <DependentUpon>LibraryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="passwordsDataSet.xsc">
+      <DependentUpon>passwordsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="passwordsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>passwordsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="passwordsDataSet.xss">
+      <DependentUpon>passwordsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="passwordsDataSet1.xsc">
+      <DependentUpon>passwordsDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="passwordsDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>passwordsDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="passwordsDataSet1.xss">
+      <DependentUpon>passwordsDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="testDataSet.xsc">
+      <DependentUpon>testDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="testDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>testDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="testDataSet.xss">
+      <DependentUpon>testDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Aha-Soft-Security-Secrecy.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Double-J-Design-Super-Mono-3d-Button-round-cancel.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iconshock-Cms-User-login.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Louie-Mantia-Monsters-Inc-MI-Scare-Report.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Designcontest-Ecommerce-Business-Admin.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Treetog-I-Search.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Deleket-Soft-Scraps-Button-Talk-Balloon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Carlosjj-Google-Jfk-Catalogs.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Visualpharm-Icons8-Metro-Style-Sciences-Classes-Literature.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Harwen-Simple-RUN.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Harwen-Simple-RUN1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1002260_538581806202401_1232670492_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock_people.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oxygen-Icons.org-Oxygen-Actions-list-add.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oxygen-Icons.org-Oxygen-Actions-list-remove-user.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Custom-Icon-Design-Pretty-Office-11-Logout.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
